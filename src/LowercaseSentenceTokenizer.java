@@ -41,8 +41,7 @@ public class LowercaseSentenceTokenizer implements Tokenizer {
     //Splitting Words and Periods
     for(String word :words){
         
-
-        //check if word ends with period and add
+      //check if word ends with period and add
       if(word.endsWith(".")){
         tokens.add(word.substring(0, word.length() -1));
         tokens.add(".");
